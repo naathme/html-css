@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Poppins:wght@200;300;400;500&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+html {
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+
+body {
+    font-family:'Poppins', sans-serif;
+    background-color: #00000085;
+    padding: 64px 24px;
+    color: #000000;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 64px;
+}
+
+header img {
+    height: 128px;
+    width: 128px;
+    border-radius: 50%;
+    margin-right: 3rem;
+    transition: 0.2s;
+}
+
+header img:hover {
+    outline: 4px solid rgba(0, 0, 0, 0.432);
+}
+
+header div h1 {
+    font-size: 4em;
+    font-weight: 500;
+}
+
+header div p {
+    margin-top: 20px;
+    font-size: 2.4rem;
+    background-color: rgb(0, 0, 0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+main section {
+    max-width: 600px;
+    margin: 32px auto;
+}
+
+main section h1 {
+    font-size: 2.4rem;
+}
+
+main section div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 32px auto;
+    gap: 30px;
+}
+
+main section div a {
+    flex-basis: 220px;
+    flex-grow: 1;
+}
+
+@media screen and (max-width: 768px) {
+    section div a {
+        flex-basis: 600px;
+    }
+}
+
+main section div article {
+    min-height: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+main section div article:hover img {
+    width: 32px;
+}
+
+main section div article img {
+    width: 28px;
+    margin-right: 16px;
+    transition: 0.4s;
+}
+
+main section div article h2 {
+    text-align: center;
+    font-size: 2.4rem;
+    font-weight: 400;
+    color: black;
+}
